@@ -12,10 +12,10 @@
 		FA9952B72372E73100EF6019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9952B52372E73100EF6019 /* Main.storyboard */; };
 		FA9952B92372E73300EF6019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9952B82372E73300EF6019 /* Assets.xcassets */; };
 		FA9952BC2372E73300EF6019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9952BA2372E73300EF6019 /* LaunchScreen.storyboard */; };
-		FA9952C92374064A00EF6019 /* UITextViewExtintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9952C52374064A00EF6019 /* UITextViewExtintions.swift */; };
-		FA9952CA2374064A00EF6019 /* UIIViewextintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9952C62374064A00EF6019 /* UIIViewextintions.swift */; };
-		FA9952CB2374064A00EF6019 /* UIViewControllrExtintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9952C72374064A00EF6019 /* UIViewControllrExtintions.swift */; };
-		FA9952CC2374064A00EF6019 /* UITextFeildExtinsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9952C82374064A00EF6019 /* UITextFeildExtinsion.swift */; };
+		FAC7344923BAA1C800C34F19 /* UIViewControllrExtintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7344523BAA1C800C34F19 /* UIViewControllrExtintions.swift */; };
+		FAC7344A23BAA1C800C34F19 /* UITextViewExtintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7344623BAA1C800C34F19 /* UITextViewExtintions.swift */; };
+		FAC7344B23BAA1C800C34F19 /* UITextFeildExtinsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7344723BAA1C800C34F19 /* UITextFeildExtinsion.swift */; };
+		FAC7344C23BAA1C800C34F19 /* UIIViewextintions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7344823BAA1C800C34F19 /* UIIViewextintions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		FA9952B82372E73300EF6019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9952BB2372E73300EF6019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9952BD2372E73300EF6019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA9952C52374064A00EF6019 /* UITextViewExtintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtintions.swift; sourceTree = "<group>"; };
-		FA9952C62374064A00EF6019 /* UIIViewextintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIIViewextintions.swift; sourceTree = "<group>"; };
-		FA9952C72374064A00EF6019 /* UIViewControllrExtintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllrExtintions.swift; sourceTree = "<group>"; };
-		FA9952C82374064A00EF6019 /* UITextFeildExtinsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFeildExtinsion.swift; sourceTree = "<group>"; };
+		FAC7344523BAA1C800C34F19 /* UIViewControllrExtintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllrExtintions.swift; sourceTree = "<group>"; };
+		FAC7344623BAA1C800C34F19 /* UITextViewExtintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtintions.swift; sourceTree = "<group>"; };
+		FAC7344723BAA1C800C34F19 /* UITextFeildExtinsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFeildExtinsion.swift; sourceTree = "<group>"; };
+		FAC7344823BAA1C800C34F19 /* UIIViewextintions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIIViewextintions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +84,10 @@
 		FA9952C42374064A00EF6019 /* extintions */ = {
 			isa = PBXGroup;
 			children = (
-				FA9952C52374064A00EF6019 /* UITextViewExtintions.swift */,
-				FA9952C62374064A00EF6019 /* UIIViewextintions.swift */,
-				FA9952C72374064A00EF6019 /* UIViewControllrExtintions.swift */,
-				FA9952C82374064A00EF6019 /* UITextFeildExtinsion.swift */,
+				FAC7344823BAA1C800C34F19 /* UIIViewextintions.swift */,
+				FAC7344723BAA1C800C34F19 /* UITextFeildExtinsion.swift */,
+				FAC7344623BAA1C800C34F19 /* UITextViewExtintions.swift */,
+				FAC7344523BAA1C800C34F19 /* UIViewControllrExtintions.swift */,
 			);
 			name = extintions;
 			path = "../../../../IOS Course by belbisi/NID@L/Apps/lect10.02/lect10.02/lect10.02/Utilities/extintions";
@@ -164,12 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9952C92374064A00EF6019 /* UITextViewExtintions.swift in Sources */,
-				FA9952CB2374064A00EF6019 /* UIViewControllrExtintions.swift in Sources */,
-				FA9952CA2374064A00EF6019 /* UIIViewextintions.swift in Sources */,
+				FAC7344A23BAA1C800C34F19 /* UITextViewExtintions.swift in Sources */,
+				FAC7344C23BAA1C800C34F19 /* UIIViewextintions.swift in Sources */,
 				FA9952B42372E73100EF6019 /* ViewController.swift in Sources */,
 				FA9952B22372E73100EF6019 /* AppDelegate.swift in Sources */,
-				FA9952CC2374064A00EF6019 /* UITextFeildExtinsion.swift in Sources */,
+				FAC7344B23BAA1C800C34F19 /* UITextFeildExtinsion.swift in Sources */,
+				FAC7344923BAA1C800C34F19 /* UIViewControllrExtintions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
